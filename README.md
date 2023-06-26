@@ -35,11 +35,11 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## Features Added
 
-- Incomplete start game screen
+- Completed Start Screen.
 
 ## Features to be Added
 
-- Completed Screens
+- More Completed Screens! *c*
 - Guesser Logic
 - User Input
 - Should guess higher / lower screen
