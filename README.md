@@ -39,7 +39,10 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## Features to be Added
 
-- More Completed Screens! *c*
+- More Completed Screens! *evil laughter*
 - Guesser Logic
 - User Input
 - Should guess higher / lower screen
+
+## Known Bugs
+- The gahdang cursor in the textbox appears green. Can't figure out how to solve it.

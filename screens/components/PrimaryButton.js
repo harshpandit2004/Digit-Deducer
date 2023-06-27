@@ -2,15 +2,12 @@ import React from "react";
 import { View, Text, Pressable, StyleSheet } from "react-native";
 
 export default function PrimaryButton(props) {
-  const pressHandler = () => {
-    console.log(props.buttonText + " button pressed");
-  };
 
   return (
     <View style={styles.outerContainer}>
       <Pressable
         style={styles.container}
-        onPress={pressHandler}
+        onPress={props.pressHandler}
         android_ripple={{color: '#fff'}}
       >
         <Text style={styles.buttonText}>{props.buttonText}</Text>
@@ -26,13 +23,12 @@ const styles = StyleSheet.create({
     margin:5
   },
   container: {
-    backgroundColor: "#72063c",
+    backgroundColor: "#e9d99d",
     padding: 10,
-    color: "#fff",
     elevation: 4,
   },
   buttonText: {
-    color: "#fff",
+    fontWeight: "bold",
     textAlign: "center",
   },
 });
