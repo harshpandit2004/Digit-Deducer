@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import { View, TextInput, StyleSheet, Alert } from "react-native";
 import PrimaryButton from "./components/PrimaryButton";
 
-export default function StartGameScreen() {
+export default function UserInputWalaDabba(props) {
   const [textEntered, setTextEntered] = useState("");
 
   const textChangeHandler = (e) =>{
     setTextEntered(e);
+    confirmHandler;
   }
 
   const confirmHandler = () => {
@@ -16,7 +17,7 @@ export default function StartGameScreen() {
       console.log("Invalid Number!")
       return;
     }else{
-      console.log(typeof(chosenNumber))
+      props.onPickNumber(chosenNumber)
     }
   };
 
@@ -27,8 +28,8 @@ export default function StartGameScreen() {
   return (
     <View style={styles.inputContainer}>
       <TextInput
-        value={textEntered}
         style={styles.numberInput}
+        value={textEntered}
         maxLength={2}
         keyboardType="number-pad"
         onChangeText={textChangeHandler}
@@ -62,14 +63,14 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   numberInput: {
-    height: 40,
-    fontSize: 20,
-    borderBottomColor: "#d76300",
-    borderBottomWidth: 2,
-    color: "#fff",
+    width: 80,
+    height: 80,
+    fontSize: 40,
+    padding: 10,
+    borderBottomColor: "#e9d99d",
+    borderBottomWidth: 1,
+    color: "#e9d99d",
     marginVertical: 10,
-    fontWeight: "bold",
-    width: 50,
     textAlign: "center",
   },
   butt: {

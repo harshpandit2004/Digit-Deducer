@@ -36,6 +36,7 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 ## Features Added
 
 - Completed Start Screen.
+- Incomplete Game Screen.
 
 ## Features to be Added
 

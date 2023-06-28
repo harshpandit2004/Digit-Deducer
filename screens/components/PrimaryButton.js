@@ -24,10 +24,11 @@ const styles = StyleSheet.create({
   },
   container: {
     backgroundColor: "#e9d99d",
-    padding: 10,
+    padding: 20,
     elevation: 4,
   },
   buttonText: {
+    fontSize: 20,
     fontWeight: "bold",
     textAlign: "center",
   },
