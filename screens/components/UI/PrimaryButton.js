@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, Pressable, StyleSheet } from "react-native";
+import Colors from "../../../constants/colors";
 
 export default function PrimaryButton(props) {
 
@@ -18,12 +19,12 @@ export default function PrimaryButton(props) {
 
 const styles = StyleSheet.create({
   outerContainer: {
-    borderRadius: 10,
+    borderRadius: 8,
     overflow: "hidden",
     margin:5
   },
   container: {
-    backgroundColor: "#e9d99d",
+    backgroundColor: Colors.desaturatedYellow,
     padding: 20,
     elevation: 4,
   },

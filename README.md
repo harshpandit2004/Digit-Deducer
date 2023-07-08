@@ -35,15 +35,16 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## Features Added
 
-- Completed Start Screen.
+- Completed Start Screen. [App.js // UserInputWalaDabba.js]
 - Incomplete Game Screen.
+- Guesser Logic
+- Should guess higher / lower screen [KhelneWalaDabba.js]
 
 ## Features to be Added
 
 - More Completed Screens! *evil laughter*
-- Guesser Logic
-- User Input
-- Should guess higher / lower screen
+- - Just the game over screen remains [GameOverDabba]
+- Higher / Lower button UI 
 
 ## Known Bugs
 - The gahdang cursor in the textbox appears green. Can't figure out how to solve it.
